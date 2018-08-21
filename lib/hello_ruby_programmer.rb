@@ -1,3 +1,3 @@
-def greeting(name)
-  puts "Hi, #{name}! Welcome to the wonderful world of Ruby programming."
+def favorite_food(food)
+  puts "My favorite #{food} is Peanut Butter!"
 end
