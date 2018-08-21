@@ -4,6 +4,6 @@ describe 'favorite food' do
   it 'accepts an argument called food' do
     expect(STDOUT).to receive(:puts).with("My favorite food is")
 
-    favorite_food("you")
+    favorite_food("food")
   end
 end
