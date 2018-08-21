@@ -1,8 +1,8 @@
 require 'hello_ruby_programmer'
 
-describe 'favoorite food' do
+describe 'favorite food' do
   it 'accepts an argument called food' do
-    expect(STDOUT).to receive(:puts).with("Hi, you! Welcome to the wonderful world of Ruby programming.")
+    expect(STDOUT).to receive(:puts).with("My favorite food is #{food}")
 
     favorite_food("you")
   end
